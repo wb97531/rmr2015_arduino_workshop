@@ -36,9 +36,11 @@ class Catapult
     end
   end
 end
+
 __END__
 
-irb -r'./catapult.rb'
+irb -r' actions/catapult.rb'
 catapult = Catapult.new
-spoon down?
+(pull spoon down)
 catapult.load
+(press button)
